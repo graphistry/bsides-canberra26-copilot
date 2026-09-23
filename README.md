@@ -15,6 +15,17 @@ All logistics, credentials, Q&A, and day-of announcements go through Discord:
 
 Join now so you're set up before we start.
 
+## Before the day — if you plan to use our LLM & investigation harness
+
+Two free sign-ups, best done ahead of time:
+
+1. A free **[Graphistry Hub](https://hub.graphistry.com)** account — used to sign in to Louie
+   and to render graphs.
+2. The free **[Louie desktop](https://download.louie.ai)** harness — Windows, Linux, and macOS.
+   Sign in with your Graphistry Hub credentials.
+
+You can also bring your own agent (Claude Code, OpenCode, Codex); details on the day.
+
 ## What to expect
 
 One real incident — a Splunk BOTSv3 AWS key compromise — runs across the whole day:
