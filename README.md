@@ -24,6 +24,8 @@ Two free sign-ups, best done ahead of time:
 2. The free **[Louie desktop](https://download.louie.ai)** harness — Windows, Linux, and macOS.
    Sign in with your Graphistry Hub credentials.
 
+**API-key**: In the discord channel we will provide instructions on getting your OpenAI api-key.
+
 You can also bring your own agent (Claude Code, OpenCode, Codex); details on the day.
 
 ## What to expect
