@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "splunk": {
+      "command": "${SPLUNK_MCP_PATH}/python/.venv/bin/python",
+      "args": ["${SPLUNK_MCP_PATH}/python/server.py"],
+      "cwd": "${SPLUNK_MCP_PATH}/python",
+      "env": {
+        "SPLUNK_HOST": "${SPLUNK_HOST}",
+        "SPLUNK_PORT": "${SPLUNK_PORT}",
+        "SPLUNK_USERNAME": "${SPLUNK_USERNAME}",
+        "SPLUNK_PASSWORD": "${SPLUNK_PASSWORD}",
+        "TRANSPORT": "stdio"
+      }
+    }
+  }
+}
