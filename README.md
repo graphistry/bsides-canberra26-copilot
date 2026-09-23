@@ -1,4 +1,4 @@
-# From AI Copilot to Commander — BSides Canberra 2026
+# From AI Copilot to Commander BSides Canberra 2026
 
 **A full-day hands-on workshop on building AI systems that reliably run security investigations.**
 
@@ -15,7 +15,7 @@ All logistics, credentials, Q&A, and day-of announcements go through Discord:
 
 Join now so you're set up before we start.
 
-## Before the day — if you plan to use our LLM & investigation harness
+## Before the day: if you plan to use our LLM & investigation harness
 
 Two free sign-ups, best done ahead of time:
 
@@ -28,7 +28,7 @@ You can also bring your own agent (Claude Code, OpenCode, Codex); details on the
 
 ## What to expect
 
-One real incident — a Splunk BOTSv3 AWS key compromise — runs across the whole day:
+One real incident — a Splunk BOTSv3 AWS key compromise - runs across the whole day:
 
 1. **Run an OSS LLM locally** and watch it hallucinate on SOC questions
 2. **Wrap it in an agent harness** against Splunk BOTSv3
