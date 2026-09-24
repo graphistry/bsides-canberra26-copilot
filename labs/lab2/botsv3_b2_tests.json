@@ -1,0 +1,68 @@
+{
+  "b2_q18_iam_key_errors": {
+    "id": "b2_q18_iam_key_errors",
+    "name": "What IAM access key generates the most distinct errors?",
+    "question": "What IAM user access key generates the most distinct errors when attempting to access IAM resources?",
+    "expected_output": "AKIAJOGCDXJ5NW5PXUPA",
+    "expected_patterns": [
+      "AKIAJOGCDXJ5NW5PXUPA"
+    ],
+    "difficulty": "medium",
+    "incident": "B2: AWS Key Compromise"
+  },
+  "b2_q19_support_case_id": {
+    "id": "b2_q19_support_case_id",
+    "name": "What is the AWS support case ID for Bud's compromised keys?",
+    "question": "Bud accidentally commits AWS access keys to an external code repository. Shortly after, he receives a notification from AWS that the account had been compromised. What is the support case ID that Amazon opens on his behalf?",
+    "expected_output": "5244329601",
+    "expected_patterns": [
+      "5244329601"
+    ],
+    "difficulty": "easy",
+    "incident": "B2: AWS Key Compromise"
+  },
+  "b2_q20_secret_access_key": {
+    "id": "b2_q20_secret_access_key",
+    "name": "What is the leaked secret access key?",
+    "question": "AWS access keys consist of two parts: an access key ID (e.g., AKIAIOSFODNN7EXAMPLE) and a secret access key (e.g., wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY). What is the secret access key of the key that was leaked to the external code repository?",
+    "expected_output": "Bx8/gTsYC98T0oWiFhpmdROqhELPtXJSR9vFPNGk",
+    "expected_patterns": [
+      "Bx8/gTsYC98T0oWiFhpmdROqhELPtXJSR9vFPNGk"
+    ],
+    "difficulty": "medium",
+    "incident": "B2: AWS Key Compromise"
+  },
+  "b2_q21_target_resource": {
+    "id": "b2_q21_target_resource",
+    "name": "What resource does the adversary try to create a key for?",
+    "question": "Using a leaked AWS key AKIAJOGCDXJ5NW5PXUPA, the adversary makes an unauthorized attempt to create a key for a specific resource. What is the name of that resource?",
+    "expected_output": "nullweb_admin",
+    "expected_patterns": [
+      "nullweb_admin"
+    ],
+    "difficulty": "medium",
+    "incident": "B2: AWS Key Compromise"
+  },
+  "b2_q22_user_agent": {
+    "id": "b2_q22_user_agent",
+    "name": "What user agent made the unauthorized describe-account attempt?",
+    "question": "Using a leaked AWS key AKIAJOGCDXJ5NW5PXUPA, the adversary makes an unauthorized attempt to describe an account. What is the full user agent string of the application that originated the request?",
+    "expected_output": "ElasticWolf/5.1.6",
+    "expected_patterns": [
+      "ElasticWolf/5.1.6"
+    ],
+    "difficulty": "easy",
+    "incident": "B2: AWS Key Compromise"
+  },
+  "b2_q23_ubuntu_codename": {
+    "id": "b2_q23_ubuntu_codename",
+    "name": "What Ubuntu codename does the adversary try to launch?",
+    "question": "The adversary attempts to launch an Ubuntu cloud image as the compromised IAM user. What is the codename for that operating system version in the first attempt? Answer guidance: Two words.",
+    "expected_output": "Xenial Xerus",
+    "expected_patterns": [
+      "re:(?i)xenial\\s+xerus"
+    ],
+    "difficulty": "hard",
+    "incident": "B2: AWS Key Compromise"
+  }
+}
